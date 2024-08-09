@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
+    background-color: burlywood;
+    font-family: 'Lucida Handwriting Std', sans-serif;
+    color: darkred;
 }
 
 .container{
@@ -21,9 +24,9 @@
 }
 
 .button{
-    background-color: lightblue;
+    background-color: rgb(235, 221, 144);
     border: 1px solid black;
     color: black;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
