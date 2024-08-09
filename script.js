@@ -1,7 +1,12 @@
 const container = document.querySelector(".container");
 
-for (i = 0; i < 256; i++){
-    const box = document.createElement("div");
-    box.classList.add("box");
-    container.appendChild(box);
+let size = 16;
+
+for (i = 0; i < size * size; i++){
+    let cell = document.createElement("div");
+    // console.log(cell.style.width = (500 / size) + "px");
+    cell.style.width = (500 / size) + "px"
+    cell.style.height = (500 / size) + "px";
+    cell.classList.add("cell");
+    container.appendChild(cell);
 }

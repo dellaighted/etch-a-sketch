@@ -1,11 +1,21 @@
-.container{
-    display: flex;
-    background-color: rgb(125, 175, 223);
-    font-size: 20px;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.box{
-    flex: wrap;
-    background-color: gold;
-    border: green;
+.container{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.cell{
+    border: 1px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
