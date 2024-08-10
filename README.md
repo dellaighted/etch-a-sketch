@@ -27,3 +27,7 @@ Remember the classic Etch-A-Sketch toy? Now you can try it out as a digital vers
 - [ ] Change classic mouse cursor to a paintbrush
 - [ ] Eraser button
 - [ ] Export/Save sketch option
+
+### **Video**
+
+https://github.com/user-attachments/assets/c9316ba2-fb6c-4799-b04b-0ba8ad45d61a
